@@ -12,6 +12,8 @@
 		DBC967E41A8A3C8C00BEB254 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC967E31A8A3C8C00BEB254 /* Images.xcassets */; };
 		DBC967E71A8A3C8C00BEB254 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC967E51A8A3C8C00BEB254 /* LaunchScreen.xib */; };
 		DBC967F31A8A3C8C00BEB254 /* ILocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC967F21A8A3C8C00BEB254 /* ILocationTests.m */; };
+		DBC967FF1A8A3D0400BEB254 /* YOSLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC967FD1A8A3D0400BEB254 /* YOSLocationViewController.m */; };
+		DBC968001A8A3D0400BEB254 /* YOSLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC967FE1A8A3D0400BEB254 /* YOSLocationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		DBC967EC1A8A3C8C00BEB254 /* ILocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ILocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC967F11A8A3C8C00BEB254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBC967F21A8A3C8C00BEB254 /* ILocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ILocationTests.m; sourceTree = "<group>"; };
+		DBC967FC1A8A3D0400BEB254 /* YOSLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSLocationViewController.h; sourceTree = "<group>"; };
+		DBC967FD1A8A3D0400BEB254 /* YOSLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSLocationViewController.m; sourceTree = "<group>"; };
+		DBC967FE1A8A3D0400BEB254 /* YOSLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOSLocationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,9 @@
 				DBC967E31A8A3C8C00BEB254 /* Images.xcassets */,
 				DBC967E51A8A3C8C00BEB254 /* LaunchScreen.xib */,
 				DBC967DC1A8A3C8C00BEB254 /* Supporting Files */,
+				DBC967FC1A8A3D0400BEB254 /* YOSLocationViewController.h */,
+				DBC967FD1A8A3D0400BEB254 /* YOSLocationViewController.m */,
+				DBC967FE1A8A3D0400BEB254 /* YOSLocationViewController.xib */,
 			);
 			path = ILocation;
 			sourceTree = "<group>";
@@ -192,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBC967E71A8A3C8C00BEB254 /* LaunchScreen.xib in Resources */,
+				DBC968001A8A3D0400BEB254 /* YOSLocationViewController.xib in Resources */,
 				DBC967E41A8A3C8C00BEB254 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC967FF1A8A3D0400BEB254 /* YOSLocationViewController.m in Sources */,
 				DBC967E21A8A3C8C00BEB254 /* AppDelegate.m in Sources */,
 				DBC967DF1A8A3C8C00BEB254 /* main.m in Sources */,
 			);

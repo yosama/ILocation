@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "YOSLocationViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,6 +19,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    YOSLocationViewController *locVC = [[YOSLocationViewController alloc]init];
+    self.window.rootViewController = locVC;
+    
+    
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
